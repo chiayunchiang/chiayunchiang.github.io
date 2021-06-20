@@ -9,8 +9,11 @@
 
   <body>
 
+
   	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#">Sandy Chiang</a>
+      <a class="navbar-brand">Sandy Chiang</a>
+
+      <!--
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,20 +28,26 @@
           </li>      
         </ul>
       </div>
+    -->
     </nav>
 
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <img src="me.jpg" class="rounded-circle img-fluid" alt="Cinque Terre">
             </div>
-            <div class="col-sm-8">
-              <h1 class="display-3">Hi, I am Sandy!</h1>
-              <p>As a data enthusiast, I enjoy extracting insights and telling stories based on evidence.<br> Contact: chiayun.chiang.tw@gmail.com</p>
+            <div class="col-sm-9">
+              <h1 class="display-4">Hi, I am Sandy!</h1>
+              <p class="lead">As a data enthusiast, I enjoy extracting insights and telling stories based on evidence.<br> Contact: chiayun.chiang.tw@gmail.com</p>
+              <p>
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/chia-yun-chiang/" target="_blank" role="button">LinkedIn</a>
+                <a class="btn btn-primary" href="mailto:chiayun.chiang.tw@gmail.com" target="_blank" role="button">Email</a>
+                <a class="btn btn-primary" href="https://github.com/chiayunchiang" target="_blank" role="button">GitHub</a>
+              </p>
             </div>
           </div>
         </div>
@@ -46,10 +55,10 @@
 
       <div class="container">
         <!-- Example row of columns -->
-          <div class="row" id="projects">
+          <div class="row">
             <div class="col-md-12">
               <br>
-              <h1 class="d-flex justify-content-center">Featured Project</h1>
+              <h1 class="d-flex justify-content-center" id="projects">Featured Project</h1>
               <br>
             </div>
           </div>  
